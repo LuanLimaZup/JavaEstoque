@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/meceariadeposito
+    username: postgres
+    password: Admin
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
