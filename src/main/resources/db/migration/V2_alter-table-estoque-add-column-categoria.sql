@@ -1,0 +1,1 @@
+alter table Estoque add categoria VARCHAR(50);
